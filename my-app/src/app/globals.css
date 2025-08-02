@@ -1,6 +1,63 @@
 @import "tailwindcss";
 @tailwind utilities;
 
+/* GT Cinetype Font Face Declarations */
+@font-face {
+  font-family: "GT Cinetype";
+  src: url("/fonts/GT-Cinetype-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Cinetype";
+  src: url("/fonts/GT-Cinetype-Regular-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Cinetype";
+  src: url("/fonts/GT-Cinetype-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Cinetype";
+  src: url("/fonts/GT-Cinetype-Light-Italic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Cinetype";
+  src: url("/fonts/GT-Cinetype-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Cinetype";
+  src: url("/fonts/GT-Cinetype-Bold-Italic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Cinetype Mono";
+  src: url("/fonts/GT-Cinetype-Mono.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,5 +80,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "GT Cinetype", monospace;
 }
